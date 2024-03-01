@@ -1,0 +1,16 @@
+/* google font import link  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* styles for all element (universal) */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* common styles for all elements  */
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+}
