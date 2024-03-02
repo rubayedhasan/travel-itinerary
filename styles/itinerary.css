@@ -82,7 +82,7 @@ nav ul li a {
   color: #fff;
   background-image: url("../images/banner-image.png");
   padding: 100px 0;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 48px;
@@ -97,4 +97,66 @@ nav ul li a {
 #banner .banner-container {
   max-width: 800px;
   text-align: center;
+}
+
+#banner .banner-container .banner-title {
+  font-size: 42.67px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+#banner .banner-container .banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 42px;
+}
+
+#banner .banner-container form {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff41;
+}
+
+#banner .banner-container form .user-input {
+  position: relative;
+}
+#banner .banner-container form .user-input input {
+  padding: 16px;
+  color: #13131894;
+  font-size: 16px;
+  font-weight: 400;
+  outline: 0;
+  border: 0;
+  max-width: 174px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#banner .banner-container form .user-input .show-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+#banner .banner-container form .user-input .show-icon .fa-angle-down {
+  color: #131318;
+  font-size: 16px;
+}
+
+#banner .banner-container form .search-btn {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 14px 28px;
+  max-width: 174px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #ff5400;
+}
+
+#banner .banner-container form .search-btn span {
+  margin-right: 8px;
 }

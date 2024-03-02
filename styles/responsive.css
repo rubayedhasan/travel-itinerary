@@ -6,9 +6,12 @@
 } */
 
 /* responsive styles for  extra-large devices  */
-/* @media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  #banner .banner-container .banner-title {
+    font-size: 64px;
   }
 } */
 
