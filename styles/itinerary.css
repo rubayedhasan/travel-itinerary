@@ -131,7 +131,7 @@ nav ul li a {
   font-weight: 400;
   outline: 0;
   border: 0;
-  max-width: 174px;
+  width: 174px;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -150,7 +150,7 @@ nav ul li a {
   border: 0;
   outline: 0;
   padding: 14px 28px;
-  max-width: 174px;
+  width: 174px;
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;

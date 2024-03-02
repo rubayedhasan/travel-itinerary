@@ -30,6 +30,7 @@
     max-width: 540px;
   }
 
+  /* header section styles  */
   header nav {
     flex-direction: column;
     gap: 30px;
@@ -40,6 +41,30 @@
   }
   nav ul li a {
     font-size: 16px;
+  }
+
+  #banner .banner-container {
+    max-width: 350px;
+  }
+
+  /* banner section styles  */
+  #banner .banner-container .banner-title {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+
+  #banner .banner-container .banner-description {
+    line-height: 1.3;
+    margin-bottom: 25px;
+  }
+
+  #banner .banner-container form {
+    flex-direction: column;
+  }
+
+  #banner .banner-container form .user-input input,
+  #banner .banner-container form .search-btn {
+    width: 255px;
   }
 }
 /* responsive styles for extra small devices  */
