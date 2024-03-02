@@ -36,7 +36,6 @@ body {
 /* header section  styles  */
 header {
   padding-top: 50px;
-  margin-bottom: 48px;
 }
 
 header nav {
@@ -76,4 +75,26 @@ nav ul li a {
   color: #424247;
   font-size: 18px;
   font-weight: 400;
+}
+
+/* banner section styles  */
+#banner {
+  color: #fff;
+  background-image: url("../images/banner-image.png");
+  padding: 100px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 48px;
+  border-radius: 10px;
+  background-color: #131318a1;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .banner-container {
+  max-width: 800px;
+  text-align: center;
 }

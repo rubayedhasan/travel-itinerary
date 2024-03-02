@@ -39,11 +39,67 @@
         <ul>
           <li><a href="" class="active">Home</a></li>
           <li><a href="">Packages</a></li>
-          <li><a href="">Testimonial</a></li>
+          <li><a href="" class="none">Testimonial</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="" class="none">Contact</a></li>
         </ul>
       </nav>
     </header>
+
+    <!-- main section  -->
+    <main class="container">
+      <!-- banner section  -->
+      <section id="banner">
+        <div class="banner-container">
+          <h1 class="banner-title">Explore Your Travel</h1>
+          <p class="banner-description">
+            Wind blow on the sea. Let's go create some memory with happiness
+            with someone. Keep your memory to us to keep safe and build it
+            joyful with us.
+          </p>
+          <form action="">
+            <!-- 1st user input  -->
+            <div class="user-input">
+              <label for="place">
+                <input
+                  type="text"
+                  name="vacation"
+                  id="place"
+                  placeholder="Where to go"
+                />
+              </label>
+            </div>
+            <!-- 2nd user input -->
+            <div class="user-input">
+              <label for="time">
+                <input
+                  type="text"
+                  name="vacation"
+                  id="time"
+                  placeholder="When"
+                />
+              </label>
+              <i class="fa-solid fa-angle-down show-icon"></i>
+            </div>
+            <!-- 3rd user input  -->
+            <div class="user-input">
+              <label for="vacation-type">
+                <input
+                  type="text"
+                  name="vacation"
+                  id="vacation-type"
+                  placeholder="Select type"
+                />
+              </label>
+              <i class="fa-solid fa-angle-down show-icon"></i>
+            </div>
+            <button type="button" class="search-btn">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              Find Now
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
