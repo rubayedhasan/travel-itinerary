@@ -1,0 +1,54 @@
+/* responsive styles for small devices  */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  nav .brand-info .brand-name {
+    font-size: 22px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+/* responsive styles for extra small devices  */
+@media screen and (max-width: 575.98px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header .container {
+    padding-top: 25px;
+  }
+
+  header nav {
+    justify-content: space-around;
+  }
+
+  nav .brand-info img {
+    width: 35px;
+    object-fit: cover;
+  }
+
+  nav .brand-info .brand-name {
+    font-size: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav .menu-icon {
+    display: block;
+  }
+
+  header nav .menu-icon i {
+    font-size: 22px;
+  }
+}

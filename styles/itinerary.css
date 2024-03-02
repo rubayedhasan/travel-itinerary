@@ -9,8 +9,71 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* common styles for all elements  */
 body {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
+}
+
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.active {
+  color: #ff5400;
+}
+
+/* header section  styles  */
+header {
+  padding-top: 50px;
+  margin-bottom: 48px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .brand-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav .brand-info img {
+  width: 50px;
+  object-fit: cover;
+}
+
+nav .brand-info .brand-name {
+  color: #131318;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header nav .menu-icon {
+  display: none;
+}
+
+nav ul li a {
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
 }
