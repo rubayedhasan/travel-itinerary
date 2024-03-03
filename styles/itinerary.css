@@ -33,6 +33,18 @@ body {
   color: #ff5400;
 }
 
+.primary-btn {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff5400;
+}
+
 /* header section  styles  */
 header {
   padding-top: 50px;
@@ -145,7 +157,7 @@ nav ul li a {
   font-size: 16px;
 }
 
-#banner .banner-container form .search-btn {
+#banner .banner-container form .primary-btn {
   color: #fff;
   border: 0;
   outline: 0;
@@ -158,6 +170,6 @@ nav ul li a {
   background-color: #ff5400;
 }
 
-#banner .banner-container form .search-btn span {
+#banner .banner-container form .primary-btn span {
   margin-right: 8px;
 }
