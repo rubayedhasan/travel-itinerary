@@ -37,12 +37,19 @@ body {
   color: #fff;
   border: 0;
   outline: 0;
-  padding: 14px 28px;
+  padding: 14px 35px;
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
   background-color: #ff5400;
+}
+
+.section-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
 
 /* header section  styles  */
@@ -158,18 +165,53 @@ nav ul li a {
 }
 
 #banner .banner-container form .primary-btn {
-  color: #fff;
-  border: 0;
-  outline: 0;
   padding: 14px 28px;
   width: 160px;
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #ff5400;
 }
 
 #banner .banner-container form .primary-btn span {
   margin-right: 8px;
+}
+
+/* our-popular-tour section styles  */
+#our-popular-tour {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#our-popular-tour .reason-for-popularity {
+  width: 50%;
+  max-width: 580px;
+  text-align: justify;
+}
+.reason-for-popularity .description .title-of-article {
+  color: #131318b2;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.reason-for-popularity .description section p,
+.reason-for-popularity .description section ul li {
+  color: #131318ce;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.reason-for-popularity .description section ul li {
+  list-style: disc;
+  margin-left: 50px;
+}
+.reason-for-popularity .description section p strong {
+  color: #131318ce;
+  font-size: 18px;
+  font-weight: 600;
+}
+#our-popular-tour .promo-image {
+  width: 45%;
+}
+#our-popular-tour .promo-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
