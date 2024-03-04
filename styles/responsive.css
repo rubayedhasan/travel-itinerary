@@ -1,19 +1,19 @@
 /* responsive styles for extra extra large devices  */
-/* @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
-} */
+}
 
 /* responsive styles for  extra-large devices  */
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
   #banner .banner-container .banner-title {
     font-size: 64px;
   }
-} */
+}
 
 /* responsive styles for medium devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -53,6 +53,30 @@
   }
   #our-popular-tour .promo-image {
     display: none;
+  }
+  /* your-tour-destination section styles  */
+  #your-tour-destination .your-destination-places {
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .srilanka {
+    grid-column: 1 / span 6;
+    grid-row: 5 / span 1;
+  }
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 3 / span 1;
+  }
+  .kashmir {
+    grid-column: 7 / span 6;
+    grid-row: 5 / span 1;
+  }
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+  }
+  .bandorban {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
   }
 }
 /* responsive styles for small devices  */
