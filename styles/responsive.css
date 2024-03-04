@@ -1,19 +1,19 @@
 /* responsive styles for extra extra large devices  */
-/* @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
-} */
+}
 
 /* responsive styles for  extra-large devices  */
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
   #banner .banner-container .banner-title {
     font-size: 64px;
   }
-} */
+}
 
 /* responsive styles for medium devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -83,6 +83,13 @@
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .container {
     max-width: 540px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+  .section-description {
+    font-size: 14px;
   }
 
   /* header section styles  */
@@ -196,6 +203,24 @@
   .bandorban {
     grid-column: 1 / span 12;
     grid-row: 7 / span 1;
+  }
+
+  /* why-choose-us section styles  */
+  #why-choose-us {
+    margin-top: 80px;
+  }
+  #why-choose-us .services-card .duel-card {
+    flex-direction: column;
+  }
+  #why-choose-us .services-card .card {
+    max-width: 380px;
+    padding: 32px;
+  }
+  #why-choose-us .services-card .card .card-title {
+    font-size: 20px;
+  }
+  #why-choose-us .services-card .card .card-text {
+    font-size: 14px;
   }
 }
 /* responsive styles for extra small devices  */
@@ -337,5 +362,23 @@
   .bandorban {
     grid-column: 1 / span 12;
     grid-row: 7 / span 1;
+  }
+
+  /* why-choose-us section styles  */
+  #why-choose-us {
+    margin-top: 80px;
+  }
+  #why-choose-us .services-card .duel-card {
+    flex-direction: column;
+  }
+  #why-choose-us .services-card .card {
+    max-width: 100%;
+    padding: 32px;
+  }
+  #why-choose-us .services-card .card .card-title {
+    font-size: 20px;
+  }
+  #why-choose-us .services-card .card .card-text {
+    font-size: 14px;
   }
 }
