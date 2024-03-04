@@ -232,13 +232,13 @@ nav ul li a {
 }
 #your-tour-destination .your-destination-places {
   display: grid;
-  gap: 24px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(12, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
+  grid-template-rows: repeat(3, 1fr);
 }
-#your-tour-destination .your-destination-places .maldives {
+.maldives {
   grid-column: 1 / span 6;
   grid-row: 1 / span 1;
 }

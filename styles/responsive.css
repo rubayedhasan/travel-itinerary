@@ -1,19 +1,19 @@
 /* responsive styles for extra extra large devices  */
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
-}
+} */
 
 /* responsive styles for  extra-large devices  */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
   #banner .banner-container .banner-title {
     font-size: 64px;
   }
-}
+} */
 
 /* responsive styles for medium devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -124,6 +124,55 @@
   #our-popular-tour .promo-image {
     width: 100%;
   }
+
+  /* your-tour-destination section styles  */
+  #your-tour-destination {
+    margin-top: 80px;
+  }
+  #your-tour-destination .about-destination {
+    max-width: 480px;
+    margin-bottom: 28px;
+  }
+  #your-tour-destination .about-destination .section-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  #your-tour-destination .about-destination .section-description {
+    font-size: 14px;
+  }
+  #your-tour-destination .your-destination-places {
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  .maldives {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+  }
+  .indonesia {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+  }
+  .srilanka {
+    grid-column: 1 / span 12;
+    grid-row: 3 / span 1;
+  }
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
+  }
+  .kashmir {
+    grid-column: 1 / span 12;
+    grid-row: 5 / span 1;
+  }
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 6 / span 1;
+  }
+  .bandorban {
+    grid-column: 1 / span 12;
+    grid-row: 7 / span 1;
+  }
 }
 /* responsive styles for extra small devices  */
 @media screen and (max-width: 575.98px) {
@@ -216,5 +265,53 @@
   }
   #our-popular-tour .promo-image {
     width: 100%;
+  }
+  /* your-tour-destination section styles  */
+  #your-tour-destination {
+    margin-top: 80px;
+  }
+  #your-tour-destination .about-destination {
+    max-width: 85%;
+    margin-bottom: 28px;
+  }
+  #your-tour-destination .about-destination .section-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  #your-tour-destination .about-destination .section-description {
+    font-size: 14px;
+  }
+  #your-tour-destination .your-destination-places {
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  .maldives {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+  }
+  .indonesia {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+  }
+  .srilanka {
+    grid-column: 1 / span 12;
+    grid-row: 3 / span 1;
+  }
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
+  }
+  .kashmir {
+    grid-column: 1 / span 12;
+    grid-row: 5 / span 1;
+  }
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 6 / span 1;
+  }
+  .bandorban {
+    grid-column: 1 / span 12;
+    grid-row: 7 / span 1;
   }
 }
