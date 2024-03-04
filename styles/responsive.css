@@ -254,6 +254,30 @@
   #newsletter .newsletter-image .promo .text {
     font-size: 18px;
   }
+
+  /* footer section styles  */
+  footer {
+    margin-top: 80px;
+    padding: 32px 0;
+  }
+
+  footer .footer-disclaimer {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  footer .footer-disclaimer .footer-description {
+    font-size: 14px;
+    margin: 12px 0 20px;
+  }
+  footer .footer-disclaimer .social-icons {
+    gap: 25px;
+  }
+  footer .footer-disclaimer .social-icons .fa-brands {
+    font-size: 18px;
+  }
+  footer .copy-text {
+    font-size: 14px;
+  }
 }
 /* responsive styles for extra small devices  */
 @media screen and (max-width: 575.98px) {
@@ -449,5 +473,28 @@
   }
   #newsletter .newsletter-image .promo .text {
     font-size: 18px;
+  }
+  /* footer section styles  */
+  footer {
+    margin-top: 80px;
+    padding: 32px 0;
+  }
+
+  footer .footer-disclaimer {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  footer .footer-disclaimer .footer-description {
+    font-size: 14px;
+    margin: 12px 0 20px;
+  }
+  footer .footer-disclaimer .social-icons {
+    gap: 25px;
+  }
+  footer .footer-disclaimer .social-icons .fa-brands {
+    font-size: 18px;
+  }
+  footer .copy-text {
+    font-size: 14px;
   }
 }
