@@ -83,6 +83,10 @@
   #why-choose-us .services-card .duel-card {
     flex-direction: column;
   }
+  /* newsletter section styles  */
+  #newsletter .newsletter-image {
+    display: none;
+  }
 }
 /* responsive styles for small devices  */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
