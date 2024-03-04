@@ -64,6 +64,23 @@ body {
   margin: 0 auto;
   margin-bottom: 48px;
 }
+
+.brand-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand-info img {
+  width: 50px;
+  object-fit: cover;
+}
+
+.brand-info .brand-name {
+  color: #131318;
+  font-size: 28px;
+  font-weight: 800;
+}
 /* header section  styles  */
 header {
   padding-top: 50px;
@@ -75,21 +92,8 @@ header nav {
   align-items: center;
 }
 
-nav .brand-info {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-nav .brand-info img {
-  width: 50px;
-  object-fit: cover;
-}
-
 nav .brand-info .brand-name {
-  color: #131318;
   font-size: 30px;
-  font-weight: 800;
 }
 
 header nav ul {
@@ -408,4 +412,47 @@ nav ul li a {
 #newsletter .newsletter-image .promo .text {
   font-size: 20px;
   font-weight: 800;
+}
+
+/* footer section styles  */
+footer {
+  margin-top: 100px;
+  padding: 110px 0;
+  background-color: #13131807;
+}
+
+footer .footer-disclaimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #1313182d;
+}
+footer .footer-disclaimer .footer-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 770px;
+  margin: 15px 0 30px;
+  text-align: center;
+  line-height: 1.7;
+}
+footer .footer-disclaimer .social-icons {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-disclaimer .social-icons .fa-brands {
+  color: #131318;
+  font-size: 22px;
+  font-size: 500;
+}
+footer .copy-text {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
 }
