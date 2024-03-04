@@ -339,4 +339,44 @@ nav ul li a {
 /* newsletter section styles  */
 #newsletter {
   margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#newsletter .newsletter-container {
+  width: 48%;
+  padding: 40px;
+  border: 1px solid #ff5400;
+  border-radius: 20px;
+}
+#newsletter .newsletter-container .letter-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+#newsletter .newsletter-container .letter-text {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #1313182d;
+}
+#newsletter .newsletter-container form input {
+  display: block;
+  width: 400px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  background-color: #13131811;
+}
+#newsletter .newsletter-image {
+  width: 48%;
+}
+#newsletter .newsletter-image img {
+  width: 100%;
 }
