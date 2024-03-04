@@ -345,8 +345,7 @@ nav ul li a {
   margin-top: 100px;
 }
 #newsletter .newsletter-container {
-  width: 48%;
-  max-width: 475px;
+  width: 475px;
   padding: 40px;
   border: 1px solid #ff5400;
   border-radius: 20px;
@@ -366,7 +365,7 @@ nav ul li a {
 }
 #newsletter .newsletter-container form input {
   display: block;
-  width: 330px;
+  width: 400px;
   border: 0;
   outline: 0;
   font-size: 16px;
@@ -383,7 +382,7 @@ nav ul li a {
 #newsletter .newsletter-image img {
   width: 100%;
   max-width: 675px;
-  max-height: 425px;
+  height: 425px;
   object-fit: cover;
   border-radius: 10px;
 }
