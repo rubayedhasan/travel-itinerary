@@ -342,16 +342,97 @@ nav ul li a {
 }
 
 #book-a-trip .booking-progress-section {
-  width: 47%;
-  background-color: greenyellow;
+  width: 45%;
+  position: relative;
 }
 #book-a-trip .booking-progress-section .your-booked-trip {
-  background-color: orangered;
-  height: 300px;
+  padding: 26px 35px 40px;
+  border-radius: 20px;
+  background-color: #5a5a5d17;
+  box-shadow: 0 6px 25px 5px #5a5a5d3d;
+}
+.booking-progress-section .your-booked-trip img {
+  width: 100%;
+}
+.booking-progress-section .your-booked-trip .trip-name {
+  color: #131318;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.booking-progress-section .your-booked-trip time,
+.booking-progress-section .your-booked-trip span {
+  color: #131318ce;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.booking-progress-section .your-booked-trip time {
+  margin-right: 20px;
+}
+.booking-progress-section .your-booked-trip .icons {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+.booking-progress-section .your-booked-trip .icons .icon {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #13131828;
+}
+.booking-progress-section .your-booked-trip .icons .icon a i {
+  color: #131318;
+}
+.booking-progress-section .your-booked-trip .group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-progress-section .your-booked-trip .group .people {
+  color: #131318ce;
+}
+.booking-progress-section .your-booked-trip .group .people span {
+  margin-left: 20px;
+}
+.booking-progress-section .your-booked-trip .group .bookmark i {
+  color: #131318;
+  font-size: 25px;
 }
 #book-a-trip .booking-progress-section .trip-outline {
-  background-color: thistle;
-  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #d6d6dd;
+  padding: 15px 22px;
+  max-width: 250px;
+  border-radius: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: -40px;
+  transform: rotate(-20deg);
+  transform-origin: top right;
+}
+.trip-outline .rome-img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.trip-outline .rome-trip .rome-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.trip-outline .rome-trip span,
+.trip-outline .rome-trip p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.trip-outline .trip-progress {
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  margin-top: 8px;
+  background-image: linear-gradient(to right, #ff5400 60%, #1313182d 40%);
 }
 
 /* why-choose-us section styles */
