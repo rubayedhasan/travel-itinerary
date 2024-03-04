@@ -296,6 +296,64 @@ nav ul li a {
   top: 48%;
   left: 30%;
 }
+
+/* book-a-trip section  styles */
+#book-a-trip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#book-a-trip .trip-booking-steps {
+  width: 47%;
+}
+#book-a-trip .trip-booking-steps .semi-title {
+  color: #131318a9;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#book-a-trip .trip-booking-steps .section-title {
+  margin-bottom: 42px;
+}
+.trip-booking-steps .steps .step {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.steps .step .step-feature img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.steps .step .about-taken-step .step-title {
+  color: #131318;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.steps .step .about-taken-step .about-step {
+  color: #131318ce;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+#book-a-trip .booking-progress-section {
+  width: 47%;
+  background-color: greenyellow;
+}
+#book-a-trip .booking-progress-section .your-booked-trip {
+  background-color: orangered;
+  height: 300px;
+}
+#book-a-trip .booking-progress-section .trip-outline {
+  background-color: thistle;
+  height: 200px;
+}
+
 /* why-choose-us section styles */
 #why-choose-us {
   margin-top: 100px;

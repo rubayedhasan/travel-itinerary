@@ -1,19 +1,19 @@
 /* responsive styles for extra extra large devices  */
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
-}
+} */
 
 /* responsive styles for  extra-large devices  */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
   #banner .banner-container .banner-title {
     font-size: 64px;
   }
-}
+} */
 
 /* responsive styles for medium devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
