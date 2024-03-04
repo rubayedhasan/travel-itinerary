@@ -335,3 +335,8 @@ nav ul li a {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* newsletter section styles  */
+#newsletter {
+  margin-top: 100px;
+}
