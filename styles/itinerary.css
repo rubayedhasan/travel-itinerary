@@ -339,12 +339,14 @@ nav ul li a {
 /* newsletter section styles  */
 #newsletter {
   display: flex;
-  justify-content: space-between;
+  gap: 25px;
+  justify-content: center;
   align-items: center;
   margin-top: 100px;
 }
 #newsletter .newsletter-container {
   width: 48%;
+  max-width: 475px;
   padding: 40px;
   border: 1px solid #ff5400;
   border-radius: 20px;
@@ -364,7 +366,7 @@ nav ul li a {
 }
 #newsletter .newsletter-container form input {
   display: block;
-  width: 400px;
+  width: 330px;
   border: 0;
   outline: 0;
   font-size: 16px;
