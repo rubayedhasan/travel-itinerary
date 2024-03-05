@@ -1,19 +1,19 @@
 /* responsive styles for extra extra large devices  */
-/* @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1320px;
   }
-} */
+}
 
 /* responsive styles for  extra-large devices  */
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
   #banner .banner-container .banner-title {
     font-size: 64px;
   }
-} */
+}
 
 /* responsive styles for medium devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -212,6 +212,51 @@
   .bandorban {
     grid-column: 1 / span 12;
     grid-row: 7 / span 1;
+  }
+
+  /* book-a-trip section  styles */
+  #book-a-trip {
+    gap: 30px;
+    flex-direction: column;
+    margin: 80px 0 100px;
+  }
+
+  #book-a-trip .trip-booking-steps {
+    width: 100%;
+  }
+  #book-a-trip .trip-booking-steps .semi-title {
+    font-size: 20px;
+  }
+  #book-a-trip .trip-booking-steps .section-title {
+    margin-bottom: 32px;
+  }
+  .trip-booking-steps .steps .step {
+    margin-bottom: 30px;
+  }
+
+  .steps .step .about-taken-step .step-title {
+    font-size: 20px;
+  }
+  .steps .step .about-taken-step .about-step {
+    font-size: 14px;
+  }
+
+  #book-a-trip .booking-progress-section {
+    width: 100%;
+  }
+  .booking-progress-section .your-booked-trip .trip-name {
+    font-size: 18px;
+  }
+  .booking-progress-section .your-booked-trip time,
+  .booking-progress-section .your-booked-trip span {
+    font-size: 14px;
+  }
+  .trip-outline .rome-trip .rome-name {
+    font-size: 16px;
+  }
+  .trip-outline .rome-trip span,
+  .trip-outline .rome-trip p {
+    font-size: 14px;
   }
 
   /* why-choose-us section styles  */
@@ -425,6 +470,37 @@
   .bandorban {
     grid-column: 1 / span 12;
     grid-row: 7 / span 1;
+  }
+
+  /* book-a-trip section  styles */
+  #book-a-trip {
+    gap: 30px;
+    flex-direction: column;
+    margin: 80px 0 0;
+  }
+
+  #book-a-trip .trip-booking-steps {
+    width: 100%;
+  }
+  #book-a-trip .trip-booking-steps .semi-title {
+    font-size: 20px;
+  }
+  #book-a-trip .trip-booking-steps .section-title {
+    margin-bottom: 32px;
+  }
+  .trip-booking-steps .steps .step {
+    margin-bottom: 30px;
+  }
+
+  .steps .step .about-taken-step .step-title {
+    font-size: 20px;
+  }
+  .steps .step .about-taken-step .about-step {
+    font-size: 14px;
+  }
+
+  #book-a-trip .booking-progress-section {
+    display: none;
   }
 
   /* why-choose-us section styles  */

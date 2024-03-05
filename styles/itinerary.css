@@ -358,7 +358,7 @@ nav ul li a {
   color: #131318;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin: 12px 0;
 }
 .booking-progress-section .your-booked-trip time,
 .booking-progress-section .your-booked-trip span {
